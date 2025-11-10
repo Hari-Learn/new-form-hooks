@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
+import ReactForms from './comp/ReactForms'
 
 function App() {
   
@@ -9,7 +10,7 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
-      
+      <ReactForms></ReactForms>
     </>
   )
 }
