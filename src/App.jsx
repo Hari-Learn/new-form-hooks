@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import ReactForms from './comp/ReactForms'
 import PasswordForms from './comp/PasswordForms'
+import CheckboxForms from './comp/CheckboxForms'
 
 function App() {
   
@@ -14,6 +15,8 @@ function App() {
       <ReactForms></ReactForms>
 
       <PasswordForms></PasswordForms>
+
+      <CheckboxForms></CheckboxForms>
     </>
   )
 }
